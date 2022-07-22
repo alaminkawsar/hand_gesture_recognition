@@ -1,0 +1,8 @@
+We used two model for gesture classification.
+
+Firstly we used ssd_mobilenet_v2_fpn_320 to hand detect and 
+then we used gestures classify of hagrid model. As a gesture classification model, they used mobileNet_v3_large,mobileNet_v3_small, resnext50,resnet101 and more models.
+To Run this model:
+1. Download classifiers model from this link: https://github.com/hukenovs/hagrid 
+2. Change 'path_to_config' that is in 'webcame_hand_gestures.py' file.
+3. Change checkpoint directory that is in classifier->config->default.yaml
